@@ -33,73 +33,11 @@
         </div>
     </header>
     <main class="page">
+
         <section class="form-section">
             <h1 class="form-section__title">Форма для ОПП</h1>
-            <form class="form">
-                <label class="form__label">
-                    <span class="form__field-caption">Номер заявки</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Желаемая дата подключения для клиента</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Дата/время заявки</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Необходимость в оборудовании</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Фамилия клиента</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Город</span>
-                    <select class="form__input">
-                        <option value="Екатеринбург">Екатеринбург</option>
-                    </select>
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Имя клиента</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Адрес</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Отчество клиента</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Тип дома</span>
-                    <select class="form__input">
-                        <option value="Многоквартирный">Многоквартирный</option>
-                    </select>
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">№ телефона основной</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">Тариф</span>
-                    <select class="form__input">
-                        <option value="Резвый клик">Резвый клик</option>
-                    </select>
-                </label>
-                <label class="form__label">
-                    <span class="form__field-caption">№ телефона дополнительный</span>
-                    <input type="text" class="form__input">
-                </label>
-                <label class="form__label form__label_comment">
-                    <span class="form__field-caption">Комментарий</span>
-                    <textarea class="form__textarea form__textarea_comment"></textarea>
-                </label>
-                <button type="submit" class="form__button form__button_submit">Отправить</button>
-            </form>
+            <?php echo do_shortcode( '[contact-form-7 id="12" title="opp"]' ); ?>
+
         </section>
     </main>
     <footer class="footer">

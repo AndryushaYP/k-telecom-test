@@ -1,7 +1,6 @@
 .footer {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding: 44px 157px;
   background-color: var(--color-blue);
@@ -10,6 +9,7 @@
 .footer__logo {
   width: 247px;
   height: 56px;
+  margin-right: 50px;
   background-image: url(../assets/logo-white.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -25,7 +25,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 56px;
+  flex-wrap: wrap;
+  min-height: 56px;
   column-gap: 100px;
   padding: 0;
 }

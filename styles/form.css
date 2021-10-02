@@ -10,17 +10,9 @@
 
 .form-section__title {
   margin: 0;
+  margin-bottom: 55px;
   font-size: var(--main-title-fs);
   color: var(--color-pink);
-}
-
-.form {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  row-gap: 38px;
-  margin-top: 55px;
 }
 
 .form__label {
