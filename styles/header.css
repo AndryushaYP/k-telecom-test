@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1440px;
   height: 126px;
   background-color: var(--color-pink);
+  margin-bottom: 80px;
 }
 
 .header__navigation {
@@ -18,6 +18,11 @@
 }
 
 .header__links {
+  display: flex;
+  gap: 20px;
+}
+
+.header__links > div {
   display: flex;
   gap: 20px;
 }
@@ -41,6 +46,14 @@
   background-color: transparent;
   border: none;
   border-bottom: 1px dashed var(--color-black);
+}
+
+.header__map-icon {
+  width: 15px;
+  background-image: url(../assets/map-mark.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .header__container {

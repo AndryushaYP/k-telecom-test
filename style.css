@@ -5,7 +5,7 @@ Theme Name: K-Telecom
 body {
   width: 100%;
   display: flex;
-  font-family: "Barlow", sans-serif;
+  font-family: "Cera Round Pro", Arial, Helvetica;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -20,9 +20,10 @@ body {
   --color-black: #000;
   --btn-color: #fecc00;
   --btn-color-hover: #ffdc4e;
-  --primary-fs: 16px;
+  --primary-fs: 18px;
   --big-fs: 24px;
   --small-fs: 14px;
+  --main-title-fs: 28px;
 }
 
 * {
