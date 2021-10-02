@@ -1,0 +1,32 @@
+/*
+Theme Name: K-Telecom
+*/
+
+body {
+  width: 100%;
+  display: flex;
+  font-family: "Barlow", sans-serif;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+:root {
+  --color-pink: #c8325a;
+  --color-blue: #3c9cc8;
+  --color-gray: rgb(240, 239, 239);
+  --color-white: #ffffff;
+  --color-black: #000;
+  --btn-color: #fecc00;
+  --btn-color-hover: #ffdc4e;
+  --primary-fs: 16px;
+  --big-fs: 24px;
+  --small-fs: 14px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
